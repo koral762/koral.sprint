@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprint1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+
+    <h>Mine Sweeper</h>
+    <button class="button" onclick="startGame(level)" >New game!</button>
+    <button class="button" onclick="startGame(level)" >New game!</button>
+    <button class="button" onclick="startGame(level)" >New game!</button>
+    <button class="buttonSc"onclick="startGame(level)" ><span>🙂</span></button>
+    <button class="buttonTime">Time:<span></span></button>
+    <table class="center" border="2" cellpadding="10">
+        
+        <tbody class="board"></tbody>
+
+    </table>
+    <div class="lives" id="1" style="display: inline"></div>
+    <div class="lives" id="2" style="display: inline"></div>
+    <div class="lives" id="3" style="display: inline"></div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

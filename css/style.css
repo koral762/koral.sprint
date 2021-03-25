@@ -1,0 +1,75 @@
+
+
+body{
+    background-color: rgb(247, 211, 211);
+    text-align: center;
+}
+
+
+h{
+    color: red;
+    font-size:x-large;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.board {
+    background-color: rgb(240, 133, 195);
+}
+
+.center {
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.board td{
+    width: 30px;
+    height: 30px;
+    color:white;
+}
+
+.button{
+    color:black;
+    background-color: rgb(78, 221, 121);
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 5px;
+}
+
+.buttonSc{
+    background-color: rgb(241, 240, 126);
+}
+
+.buttonTime{
+    background-color: rgb(241, 240, 126);
+}
+
+.lives{
+    margin-top:10px;
+
+}
+
+
+.mine {
+
+    visibility:hidden;
+}
+
+.marked{
+
+    background-color: rgb(245, 177, 217);
+    
+    
+}
+
+.boom{
+    
+    background-color: rgb(236, 70, 78);
+
+}
+
+
+
